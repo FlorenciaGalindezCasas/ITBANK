@@ -1,0 +1,87 @@
+/* Regla general */
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #efefef;
+}
+
+/* Header */
+
+header {
+  background-color: #efefef;
+}
+
+header nav img {
+  width: 5rem;
+  height: auto;
+  position: relative;
+  padding: 8px 12px;
+  float: left;
+}
+
+nav {
+  display: flex;
+  top: 0;
+  padding: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #000;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+/* Imagen con texto */
+
+body div img {
+  width: 100%;
+  height: auto;
+  filter: brightness(50%);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+}
+
+/* Containers de informacion */

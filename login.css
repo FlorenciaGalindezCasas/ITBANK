@@ -7,6 +7,9 @@
 
 header {
   background-color: #efefef;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
 }
 
 header nav img {
@@ -25,15 +28,19 @@ nav {
   align-items: center;
 }
 
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
 .form {
   width: 300px;
-  height: 400px;
-  padding-top: 50px;
+  height: 350px;
+  padding-top: 200px;
   background-color: rgb(200, 215, 203);
   border-radius: 20px;
   text-align: center;
-  margin: auto;
-  margin-top: 100px;
 }
 
 input {

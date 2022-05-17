@@ -1,90 +1,100 @@
 /* Regla general */
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: #efefef;
+  background-color: #fff;
 }
 
 /* Header */
 
 header {
-  background-color: #efefef;
-  width: 100%;
-  position: fixed;
-  z-index: 100;
-}
-
-header nav img {
-  width: 5rem;
-  height: auto;
-  position: relative;
-  padding: 8px 12px;
-  float: left;
-}
-
-nav {
   display: flex;
-  top: 0;
-  padding: 0.5rem;
+  padding: 30px 10%;
   justify-content: space-between;
   align-items: center;
 }
 
-nav ul {
-  text-align: right;
-}
-
-nav ul li {
-  list-style: none;
-  display: inline-block;
-  padding: 8px 12px;
+header img {
+  width: 8rem;
+  height: auto;
   position: relative;
+  float: left;
 }
 
-.nav-links ul li a {
-  /* color: #fff; */
+li,
+a,
+button {
+  text-align: right;
+  font-weight: 500;
+  font-size: 16px;
   text-decoration: none;
-  font-size: 23px;
 }
 
-.nav-links ul li::after {
-  content: "";
-  width: 0%;
-  height: 2px;
-  background: #000;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
+.nav-links {
+  list-style: none;
 }
 
-.nav-links ul li:hover::after {
-  width: 100%;
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:visited {
+  color: #000;
+}
+
+.nav-links li a:hover {
+  color: #3d9df2;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgb(231, 228, 228);
+  color: #3d9df2;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: #3d9df2;
+  color: #fff;
 }
 
 /* Imagen con texto */
 
 body div img {
-  width: 100%;
+  width: 50%;
   height: auto;
-  filter: brightness(50%);
+  float: right;
 }
 
 .container {
-  position: relative;
-  text-align: center;
-  color: white;
+  padding: 3rem;
 }
 
 .text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 4rem;
+  position: relative;
+  font-size: 40px;
+  color: #000;
+  font-weight: 500;
+  top: 10rem;
 }
 
-/* Containers de informacion */
+.text span {
+  color: #3d9df2;
+}
+
+.container p {
+  color: #767676;
+}

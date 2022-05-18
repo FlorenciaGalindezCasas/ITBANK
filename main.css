@@ -56,3 +56,37 @@ header {
     background-color: #3d9df2;
     color: #fff;
   }
+/*cajas*/  /*falta modificar los espacios entre cajas*/
+  .caja1{
+    background-color: rgb(240, 240, 240);
+    margin: 110px;
+    color: #3d9df2;
+    height: 400px;
+    width: 350px;
+    padding: 30px;
+    float: left;
+  }
+
+  p{
+    left: 90px;
+    position: relative;
+  }
+.caja2{
+  background-color: rgb(240, 240, 240);
+    margin: 110px;
+    color: #3d9df2;
+    height: 400px;
+    width: 350px;
+    padding: 30px;
+    float: left;
+    
+}
+.caja3{
+  background-color: rgb(240, 240, 240);
+    margin: 30px;
+    color: #3d9df2;
+    height:800px;
+    width: 400px;
+    padding: 20px;
+    float: right;
+}

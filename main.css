@@ -1,0 +1,92 @@
+/* Regla general */
+* {
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #fff;
+  }
+
+  /* Header */
+
+header {
+    display: flex;
+    padding: 30px 10%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 15px rgba(61, 157, 242, 1);
+  }
+  
+  header img {
+    width: 8rem;
+    height: auto;
+    position: relative;
+    float: left;
+  }
+  
+  li,
+  a,
+  button {
+    text-align: right;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: none;  
+  }
+
+  header button {
+    padding: 9px 25px;
+    background-color: rgb(240, 240, 240);
+    color: #3d9df2;
+    border: 1px solid #3d9df2;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+
+  header #username {
+      text-align: right;
+  }
+
+/* Animaciones Header */
+
+  header button:hover {
+    background-color: #3d9df2;
+    color: #fff;
+  }
+/*cajas*/  /*falta modificar los espacios entre cajas*/
+  .caja1{
+    background-color: rgb(240, 240, 240);
+    margin: 110px;
+    color: #3d9df2;
+    height: 400px;
+    width: 350px;
+    padding: 30px;
+    float: left;
+  }
+
+  p{
+    left: 90px;
+    position: relative;
+  }
+.caja2{
+  background-color: rgb(240, 240, 240);
+    margin: 110px;
+    color: #3d9df2;
+    height: 400px;
+    width: 350px;
+    padding: 30px;
+    float: left;
+    
+}
+.caja3{
+  background-color: rgb(240, 240, 240);
+    margin: 30px;
+    color: #3d9df2;
+    height:800px;
+    width: 400px;
+    padding: 20px;
+    float: right;
+}

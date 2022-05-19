@@ -116,3 +116,9 @@ body div img {
 .container p {
   color: #757575;
 }
+
+/* Footer */
+
+.flex-column li a {
+  font-weight: 300;
+}

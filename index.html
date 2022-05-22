@@ -40,80 +40,89 @@
 
     <!----- Grid con texto e imagen ----->
 
-    <div class="container-fluid">
-      <div class="row justify-content-md-center">
-        <div class="col col-lg-2">
+    <div class="container d-flex justify-content-center">
+      <div class="row">
+        <div class="col-12 col-lg-2">
           <h1 class="titulo">Bienvenidos<br />al <span>Home Banking</span></h1>
         </div>
-        <div class="col-md-10">
-          <img src="Imagenes/portada1.gif" alt="Home" />
+        <div class="col-12 col-lg-10">
+          <img
+            class="portada"
+            src="Imagenes/portada1.gif"
+            alt="Home"
+            width="126%"
+          />
         </div>
       </div>
     </div>
 
-    <!---- Grid con botones ---->
+    <!---- Grid con cards ---->
 
-    <div class="container justify-content-center">
-      <div class="row justify-content-center">
-        <div class="col-sm-6 border">
-          <div class="row justify-content-center">
-            <div class="col-4 col-sm-6 border">
-              <h2>Finanzas</h2>
+    <div class="container d-flex justify-content-center">
+      <div class="row">
+        <div class="col-12 col-lg-6 p-2">
+          <article class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title">Prestamos a tasa fija</h3>
+              <a href="#">Mas info.</a>
+              <div class="d-flex">
+                <img
+                  src="Imagenes/finance.png"
+                  alt="Finanzas"
+                  height="30%"
+                  width="30%"
+                />
+              </div>
             </div>
-            <div class="col-4 col-sm-6 border">
-              <img
-                src="Imagenes/finance.png"
-                alt="finance"
-                height="30%"
-                width="auto"
-              />
-            </div>
-          </div>
+          </article>
         </div>
-        <div class="col-sm-6">
-          <div class="row justify-content-center">
-            <div class="col-4 col-sm-6 border"><h2>Saca tu tarjeta</h2></div>
-            <div class="col-4 col-sm-6 border">
-              <img
-                src="Imagenes/card.png"
-                alt="card"
-                height="30%"
-                width="auto"
-              />
+        <div class="col-12 col-lg-6 p-2">
+          <article class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title">Pedi hoy tu tarjeta</h3>
+              <a href="#">Pedir hoy</a>
+              <div class="d-flex">
+                <img
+                  src="Imagenes/card.png"
+                  alt="tarjeta"
+                  height="30%"
+                  width="30%"
+                />
+              </div>
             </div>
-          </div>
+          </article>
         </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-sm-6 border">
-          <div class="row justify-content-center">
-            <div class="col-4 col-sm-6 border">
-              <h2>En todos tus dispositivos</h2>
+        <div class="col-12 col-lg-6 p-2">
+          <article class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title">Soporte las 24hs.</h3>
+              <a href="#">Consultar</a>
+              <div class="d-flex">
+                <img
+                  src="Imagenes/support.png"
+                  alt="soporte"
+                  height="30%"
+                  width="30%"
+                />
+              </div>
             </div>
-            <div class="col-4 col-sm-6 border">
-              <img
-                src="Imagenes/app.png"
-                alt="finance"
-                height="30%"
-                width="auto"
-              />
-            </div>
-          </div>
+          </article>
         </div>
-        <div class="col-sm-6">
-          <div class="row justify-content-center">
-            <div class="col-4 col-sm-6 border">
-              <h2>Con la maxima seguridad</h2>
+        <div class="col-12 col-lg-6 p-2">
+          <article class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title">Con la mejor seguridad</h3>
+              <a href="#">Ver terminos</a>
+              <div class="d-flex">
+                <img
+                  src="Imagenes/security.png"
+                  alt="security"
+                  height="30%"
+                  width="30%"
+                />
+              </div>
             </div>
-            <div class="col-4 col-sm-6 border">
-              <img
-                src="Imagenes/security.png"
-                alt="card"
-                height="30%"
-                width="auto"
-              />
-            </div>
-          </div>
+          </article>
         </div>
       </div>
     </div>

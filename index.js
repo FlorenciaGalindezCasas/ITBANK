@@ -6,7 +6,6 @@ fetch("https://www.dolarsi.com/api/api.php?type=valoresprincipales")
   });
 
 function miObj(data) {
-card-dolar-turista
   let venta6 = document.getElementById("venta6");
   venta6.innerHTML = `$${data[6].casa.venta}`;
 
@@ -21,5 +20,4 @@ card-dolar-turista
 
   let variacion = document.getElementById("variacion");
   variacion.innerHTML = `Variacion: ${data[1].casa.variacion}%`;
- main
 }

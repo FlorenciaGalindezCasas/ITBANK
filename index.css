@@ -135,9 +135,7 @@ button:hover {
 .container p {
   color: #757575;
 }
-
 /* Grid Dolar */
-
 .cv {
   padding: 0px;
   margin: 0px;
@@ -151,6 +149,8 @@ button:hover {
   background-color: #5b83a6;
 }
 
+#variacion3,
+#venta3,
 #variacion,
 #venta,
 #compra,
@@ -158,7 +158,6 @@ button:hover {
   margin: 0px;
   padding: 5px;
 }
-
 /* Footer */
 
 .flex-column li a {

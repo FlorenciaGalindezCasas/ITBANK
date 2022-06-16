@@ -11,6 +11,7 @@ function miObj(data) {
 
   let variacion3 = document.getElementById("variacion3");
   variacion3.innerHTML = `Variación: ${data[3].casa.variacion}%`;
+
   let venta6 = document.getElementById("venta6");
   venta6.innerHTML = `$${data[6].casa.venta}`;
 
@@ -25,4 +26,10 @@ function miObj(data) {
 
   let variacion = document.getElementById("variacion");
   variacion.innerHTML = `Variacion: ${data[1].casa.variacion}%`;
+
+  let venta5 = document.getElementById("venta5");
+  venta5.innerHTML = `$${data[4].casa.venta}`;
+
+  let variacion5 = document.getElementById("variacion5");
+  variacion5.innerHTML = `Variación: ${data[4].casa.variacion}%`;
 }

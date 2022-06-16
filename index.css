@@ -139,8 +139,8 @@ button:hover {
 /* Grid Dolar */
 
 .cv {
-  padding: 0px;
-  margin: 0px;
+  padding: 0%;
+  margin: 0%;
 }
 
 .db {
@@ -151,10 +151,13 @@ button:hover {
   background-color: #5b83a6;
 }
 
-#variacion,
-#venta,
-#compra,
-#card {
+#variacion_precio,
+#venta_precio,
+#venta_promedio,
+#variacion_promedio,
+#compra_precio,
+#compra_promedio,
+#tarjeta {
   margin: 0px;
   padding: 5px;
 }

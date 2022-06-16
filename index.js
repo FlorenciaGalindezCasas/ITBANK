@@ -93,3 +93,17 @@ function miObj(data) {
     variacion1.innerHTML = `<i class="fa-solid fa-caret-up"></i> Variacion: ${data[0].casa.variacion}%`;
   }
 }
+
+/* Fecha */
+
+let mostrarFecha = document.getElementById("fecha");
+let fecha = new Date();
+mostrarFecha.innerHTML = `${fecha.getDate()}/${
+  fecha.getMonth() + 1
+}/${fecha.getFullYear()}`;
+
+/* Reloj */
+
+let mostrarReloj = document.getElementById("reloj");
+let hora = new Date();
+mostrarReloj.innerHTML = hora.toLocaleTimeString();

@@ -143,18 +143,14 @@ button:hover {
 
 .db {
   background-color: #3d9df2;
+  margin: 0px;
 }
 
 .valores {
   background-color: #5b83a6;
 }
 
-#variacion3,
-#venta3,
-#variacion,
-#venta,
-#compra,
-#card {
+.tarjeta {
   margin: 0px;
   padding: 5px;
 }

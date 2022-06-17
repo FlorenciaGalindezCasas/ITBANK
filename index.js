@@ -92,18 +92,12 @@ function miObj(data) {
   } else {
     variacion1.innerHTML = `<i class="fa-solid fa-caret-up"></i> Variacion: ${data[0].casa.variacion}%`;
   }
+
+  /* Fecha y Hora*/
+
+  let fecha = document.getElementById("fecha");
+  fecha.innerHTML = `${data[8].casa.fecha}`;
+
+  let recorrido = document.getElementById("hora");
+  recorrido.innerHTML = `${data[8].casa.recorrido}`;
 }
-
-/* Fecha */
-
-let mostrarFecha = document.getElementById("fecha");
-let fecha = new Date();
-mostrarFecha.innerHTML = `${fecha.getDate()}/${
-  fecha.getMonth() + 1
-}/${fecha.getFullYear()}`;
-
-/* Reloj */
-
-let mostrarReloj = document.getElementById("reloj");
-let hora = new Date();
-mostrarReloj.innerHTML = hora.toLocaleTimeString();

@@ -5,11 +5,14 @@ body {
 .bg-primary {
   background-color: rgb(255, 255, 255) !important;
 }
+.d-flex{
+  padding-top: 10px;
+}
 #sidebar-container {
   width: 21rem;
   padding: 20px;
   height: 100%;
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 a {
@@ -20,9 +23,12 @@ a:hover {
   text-decoration: none;
   color: rgb(17, 170, 230);
 }
+
 #menuabajo {
   padding: 20px 0px;
 }
+
+
 .menu img {
   opacity: 80%;
   margin-right: 12px;
@@ -52,11 +58,6 @@ header .mj-bienvenida {
   text-align:center;   
   }
   
-  
-
-/* .col-8{
-  overflow: auto;
-} */
 
 header .avatar {
   max-width: 45px;

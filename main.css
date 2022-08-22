@@ -9,10 +9,7 @@ body {
   width: 21rem;
   padding: 20px;
   height: 100%;
-}
-
-#sidebar-container .logo {
-  padding: 10px 25px;
+  padding-top: 40px;
 }
 
 a {
@@ -24,7 +21,7 @@ a:hover {
   color: rgb(17, 170, 230);
 }
 #menuabajo {
-  padding: 10px 0px;
+  padding: 20px 0px;
 }
 .menu img {
   opacity: 80%;
@@ -42,36 +39,79 @@ header {
   box-shadow: rgb(231 238 255 / 50%) 0px 8px 20px 0px;
   min-width: 480px;
 }
+header img {
+  width: 8rem;
+  height: auto;
+  position: relative;
+  float: left;
+}
 header .mj-bienvenida {
   font-size: 24px;
   font-weight: 450;
   color: rgb(8, 137, 188);
-  margin: -40px 0px 0px 340px;
-}
+  text-align:center;   
+  }
+  
+  
+
+/* .col-8{
+  overflow: auto;
+} */
+
 header .avatar {
   max-width: 45px;
-  margin: -65px 0px 0px 520px;
+  float:right;
 }
+
 header .nombre-usuario {
   font-size: 16px;
   font-weight: 450;
-  color: rgb(72, 72, 72);
-  margin: -53px 0px 0px 585px;
+  color: rgb(72, 72, 72); 
+  margin-left: 150px;
+  margin-top: 16px;
 }
+
 header button {
-  align-items: center;
-  justify-content: center;
+  float: right;
+  padding: 9px 25px;
+  background-color: rgb(240, 240, 240);
+  color: #3d9df2;
+  border: 1px solid #3d9df2;
+  border-radius: 50px;
   cursor: pointer;
-  border-radius: 30px;
-  border: none;
-  transition: background-color 0.5s ease 0s;
-  margin-left: 80rem;
-  background-color: transparent;
-  color: rgb(8, 137, 188);
-  font-weight: 450;
-  height: 3rem;
+  transition: all 0.3s ease 0s;
 }
 header button:hover {
-  background-color: #efefef;
-  color: rgb(8, 137, 188);
+   background-color: #3d9df2;
+  color: #fff;
+}
+
+
+@media screen and (max-width: 768px){  
+  .col-md-6{
+    margin-top: 0px;
+  }
+  header .mj-bienvenida{
+    display: none;
+  }
+  header .nombre-usuario{
+    display: none;
+  }
+  header .avatar{
+    margin-bottom: 0px;
+  }
+
+  header button{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px){  
+ 
+   header .mj-bienvenida{
+    display: none;
+  }  
+  header .nombre-usuario{
+    display: none;
+  }
 }
